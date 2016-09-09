@@ -1,7 +1,4 @@
-import fs = require('fs');
 
-
-// csv??
 
 function onFileRead(error: NodeJS.ErrnoException, data: string): void {
     if (error) {
@@ -10,4 +7,3 @@ function onFileRead(error: NodeJS.ErrnoException, data: string): void {
     }
 }
 
-fs.readFile("spells.csv", "utf8", onFileRead);
