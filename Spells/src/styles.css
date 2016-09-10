@@ -16,14 +16,23 @@ a:focus {
   margin: 20px;
 }
 
-.contact-list {
+.spell-list {
   overflow-y: auto;
+  height: 400px;
   border: 1px solid #ddd;
   padding: 10px;
 }
 
+.spell-school {
+  margin: 0;
+}
+
 .panel {
   margin: 20px;
+}
+
+.panel-title {
+  font-size: 35px;
 }
 
 .button-bar {

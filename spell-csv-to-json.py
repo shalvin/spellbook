@@ -5,8 +5,8 @@ FILENAME = 'res/Spell_List_by_MadBeard_v1.0.csv'
 
 fieldnames = [
     'id',
-    'spellName',
-    'spellLevel',
+    'name',
+    'level',
     'ritual',
     'school',
     'castingTime',

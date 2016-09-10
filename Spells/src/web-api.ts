@@ -23,13 +23,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "1",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Acid Splash",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "Cantrip",
-            "spellName": "Acid Splash"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -45,13 +45,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "2",
+            "level": "2",
             "materialComponent": "a tiny strip of white cloth",
+            "name": "Aid",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "2",
-            "spellName": "Aid"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 minute",
@@ -67,13 +67,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "3",
+            "level": "1",
             "materialComponent": "a tiny bell and a piece of\nfine silver wire",
+            "name": "Alarm",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Alarm"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -89,13 +89,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "4",
+            "level": "2",
             "materialComponent": "",
+            "name": "Alter Self",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Alter Self"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -111,13 +111,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "5",
+            "level": "1",
             "materialComponent": "a morsel of food",
+            "name": "Animal Friendship",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Animal Friendship"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -133,13 +133,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "6",
+            "level": "2",
             "materialComponent": "a morsel of food",
+            "name": "Animal Messenger",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Animal Messenger"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -155,13 +155,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 24 hour",
             "id": "7",
+            "level": "8",
             "materialComponent": "",
+            "name": "Animal Shapes",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "8",
-            "spellName": "Animal Shapes"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 minute",
@@ -177,13 +177,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "8",
+            "level": "3",
             "materialComponent": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+            "name": "Animate Dead",
             "numClasses": "2",
             "range": "10 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "3",
-            "spellName": "Animate Dead"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -199,13 +199,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "9",
+            "level": "5",
             "materialComponent": "",
+            "name": "Animate Object",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "5",
-            "spellName": "Animate Object"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -221,13 +221,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "10",
+            "level": "5",
             "materialComponent": "",
+            "name": "Antilife Shell",
             "numClasses": "1",
             "range": "Self (10ft radius)",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "5",
-            "spellName": "Antilife Shell"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -243,13 +243,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "11",
+            "level": "8",
             "materialComponent": "a pinch of powdered iron or iron filings",
+            "name": "Antimagic Field",
             "numClasses": "2",
             "range": "Self (10ft radius)",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "8",
-            "spellName": "Antimagic Field"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 hour",
@@ -265,13 +265,13 @@ let spells = [
             "description": "",
             "duration": "10 days",
             "id": "12",
+            "level": "8",
             "materialComponent": "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect",
+            "name": "Antipathy/Sympathy",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "8",
-            "spellName": "Antipathy/Sympathy"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -287,13 +287,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "13",
+            "level": "4",
             "materialComponent": "a bit of bat fur",
+            "name": "Arcane Eye",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "4",
-            "spellName": "Arcane Eye"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -309,13 +309,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "14",
+            "level": "6",
             "materialComponent": "",
+            "name": "Arcane Gate",
             "numClasses": "3",
             "range": "500 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Arcane Gate"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -331,13 +331,13 @@ let spells = [
             "description": "",
             "duration": "Until dispelled",
             "id": "15",
+            "level": "2",
             "materialComponent": "gold dust worth at least 25 gp, which the spell consumes",
+            "name": "Arcane Lock",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "2",
-            "spellName": "Arcane Lock"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -353,13 +353,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "16",
+            "level": "1",
             "materialComponent": "a cup of  water",
+            "name": "Armor of Agathys",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Armor of Agathys"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -375,13 +375,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "17",
+            "level": "1",
             "materialComponent": "",
+            "name": "Arms of Hadar",
             "numClasses": "1",
             "range": "Self (10ft radius)",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Arms of Hadar"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 hour",
@@ -397,13 +397,13 @@ let spells = [
             "description": "",
             "duration": "Special",
             "id": "18",
+            "level": "9",
             "materialComponent": "for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes",
+            "name": "Astral Projection",
             "numClasses": "3",
             "range": "10 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "9",
-            "spellName": "Astral Projection"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 minute",
@@ -419,13 +419,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "19",
+            "level": "2",
             "materialComponent": "specially marked sticks, bones, or similar tokens worth at least 25 gp",
+            "name": "Augury",
             "numClasses": "1",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "Augury"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -441,13 +441,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "20",
+            "level": "4",
             "materialComponent": "",
+            "name": "Aura of Life",
             "numClasses": "1",
             "range": "Self (30ft radius)",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Aura of Life"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -463,13 +463,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "21",
+            "level": "4",
             "materialComponent": "",
+            "name": "Aura of Purity",
             "numClasses": "1",
             "range": "Self (30ft radius)",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Aura of Purity"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -485,13 +485,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "22",
+            "level": "3",
             "materialComponent": "",
+            "name": "Aura of Vitality",
             "numClasses": "1",
             "range": "Self (30ft radius)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Aura of Vitality"
+            "school": "Evocation"
         },
         {
             "castingTime": "8 hours",
@@ -507,13 +507,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "23",
+            "level": "5",
             "materialComponent": "an agate worth at least 1,000 gp, which the spell consumes",
+            "name": "Awaken",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "5",
-            "spellName": "Awaken"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -529,13 +529,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "24",
+            "level": "1",
             "materialComponent": "a drop of blood",
+            "name": "Bane",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Bane"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 bonus action",
@@ -551,13 +551,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "25",
+            "level": "5",
             "materialComponent": "",
+            "name": "Banishing Smite",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "5",
-            "spellName": "Banishing Smite"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -573,13 +573,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "26",
+            "level": "4",
             "materialComponent": "an item distasteful to the target",
+            "name": "Banishment",
             "numClasses": "5",
             "range": "60 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Banishment"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -595,13 +595,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "27",
+            "level": "2",
             "materialComponent": "a handful of oak bark",
+            "name": "Barkskin",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Barkskin"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -617,13 +617,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "28",
+            "level": "3",
             "materialComponent": "",
+            "name": "Beacon of Hope",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Beacon of Hope"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -639,13 +639,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "29",
+            "level": "2",
             "materialComponent": "",
+            "name": "Beast Sense",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "Beast Sense"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -661,13 +661,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "30",
+            "level": "3",
             "materialComponent": "",
+            "name": "Bestow Curse",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "3",
-            "spellName": "Bestow Curse"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -683,13 +683,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "31",
+            "level": "5",
             "materialComponent": "an eggshell and a snakeskin glove",
+            "name": "Bigby's Hand",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Bigby's Hand"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -705,13 +705,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "32",
+            "level": "6",
             "materialComponent": "",
+            "name": "Blade Barrier",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Blade Barrier"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -727,13 +727,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "33",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Blade Ward",
             "numClasses": "4",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "Cantrip",
-            "spellName": "Blade Ward"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -749,13 +749,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "34",
+            "level": "1",
             "materialComponent": "a sprinkling of holy water",
+            "name": "Bless",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Bless"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -771,13 +771,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "35",
+            "level": "4",
             "materialComponent": "",
+            "name": "Blight",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "4",
-            "spellName": "Blight"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 bonus action",
@@ -793,13 +793,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "36",
+            "level": "3",
             "materialComponent": "",
+            "name": "Blinding Smite",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Blinding Smite"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -815,13 +815,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "37",
+            "level": "2",
             "materialComponent": "",
+            "name": "Blindness/Deafness",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "2",
-            "spellName": "Blindness/Deafness"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -837,13 +837,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "38",
+            "level": "3",
             "materialComponent": "",
+            "name": "Blink",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Blink"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -859,13 +859,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "39",
+            "level": "2",
             "materialComponent": "",
+            "name": "Blur",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Blur"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 bonus action",
@@ -881,13 +881,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "40",
+            "level": "2",
             "materialComponent": "",
+            "name": "Branding Smite",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Branding Smite"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -903,13 +903,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "41",
+            "level": "1",
             "materialComponent": "",
+            "name": "Burning Hands",
             "numClasses": "2",
             "range": "Self (15ft cone)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Burning Hands"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -925,13 +925,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "42",
+            "level": "3",
             "materialComponent": "",
+            "name": "Call Lightning",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Call Lightning"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -947,13 +947,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "43",
+            "level": "2",
             "materialComponent": "",
+            "name": "Calm Emotions",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Calm Emotions"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -969,13 +969,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "44",
+            "level": "6",
             "materialComponent": "a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins",
+            "name": "Chain Lightning",
             "numClasses": "2",
             "range": "150 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Chain Lightning"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -991,13 +991,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "45",
+            "level": "1",
             "materialComponent": "",
+            "name": "Charm Person",
             "numClasses": "5",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Charm Person"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -1013,13 +1013,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "46",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Chill Touch",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "Cantrip",
-            "spellName": "Chill Touch"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -1035,13 +1035,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "47",
+            "level": "1",
             "materialComponent": "a diamond worth at least 50 gp",
+            "name": "Chromatic Orb",
             "numClasses": "2",
             "range": "90 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Chromatic Orb"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1057,13 +1057,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "48",
+            "level": "6",
             "materialComponent": "the powder of a crushed black pearl worth at least 500 gp",
+            "name": "Circle of Death",
             "numClasses": "3",
             "range": "150 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "6",
-            "spellName": "Circle of Death"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -1079,13 +1079,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "49",
+            "level": "5",
             "materialComponent": "",
+            "name": "Circle of Power",
             "numClasses": "1",
             "range": "Self (30ft radius)",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "5",
-            "spellName": "Circle of Power"
+            "school": "Abjuration"
         },
         {
             "castingTime": "10 minutes",
@@ -1101,13 +1101,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "50",
+            "level": "3",
             "materialComponent": "(a focus worth at least 100\ngp, either a jeweled horn for hearing or a glass eye for seeing",
+            "name": "Clairvoyance",
             "numClasses": "4",
             "range": "1 mile",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "3",
-            "spellName": "Clairvoyance"
+            "school": "Divination"
         },
         {
             "castingTime": "1 hour",
@@ -1123,13 +1123,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "51",
+            "level": "8",
             "materialComponent": "a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water",
+            "name": "Clone",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "8",
-            "spellName": "Clone"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -1145,13 +1145,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "52",
+            "level": "2",
             "materialComponent": "a sliver o f glass",
+            "name": "Cloud of Daggers",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "2",
-            "spellName": "Cloud of Daggers"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -1167,13 +1167,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "53",
+            "level": "5",
             "materialComponent": "",
+            "name": "Cloudkill",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Cloudkill"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -1189,13 +1189,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "54",
+            "level": "1",
             "materialComponent": "a pinch of powder or sand that is colored red, yellow, and blue",
+            "name": "Color Spray",
             "numClasses": "2",
             "range": "Self (15ft cone)",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "1",
-            "spellName": "Color Spray"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -1211,13 +1211,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "55",
+            "level": "1",
             "materialComponent": "",
+            "name": "Command",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Command"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 minute",
@@ -1233,13 +1233,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "56",
+            "level": "5",
             "materialComponent": "incense and a vial of holy or unholy water",
+            "name": "Commune",
             "numClasses": "1",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "5",
-            "spellName": "Commune"
+            "school": "Divination"
         },
         {
             "castingTime": "1 minute",
@@ -1255,13 +1255,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "57",
+            "level": "5",
             "materialComponent": "",
+            "name": "Commune with Nature",
             "numClasses": "2",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "5",
-            "spellName": "Commune with Nature"
+            "school": "Divination"
         },
         {
             "castingTime": "1 bonus action",
@@ -1277,13 +1277,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "58",
+            "level": "1",
             "materialComponent": "",
+            "name": "Compeled Duel",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Compeled Duel"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -1299,13 +1299,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "59",
+            "level": "1",
             "materialComponent": "a pinch of soot and salt",
+            "name": "Comprehend Languages",
             "numClasses": "4",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Comprehend Languages"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -1321,13 +1321,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "60",
+            "level": "4",
             "materialComponent": "",
+            "name": "Compulsion",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "4",
-            "spellName": "Compulsion"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -1343,13 +1343,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "61",
+            "level": "5",
             "materialComponent": "a small crystal or glass cone",
+            "name": "Cone of Cold",
             "numClasses": "2",
             "range": "Self (60ft cone)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Cone of Cold"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1365,13 +1365,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "62",
+            "level": "4",
             "materialComponent": "three nut shells",
+            "name": "Confusion",
             "numClasses": "4",
             "range": "90 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "4",
-            "spellName": "Confusion"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -1387,13 +1387,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "63",
+            "level": "3",
             "materialComponent": "",
+            "name": "Conjure Animals",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Conjure Animals"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -1409,13 +1409,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "64",
+            "level": "3",
             "materialComponent": "one piece of ammunition or a thrown weapon",
+            "name": "Conjure Barrage",
             "numClasses": "1",
             "range": "Self (60ft cone)",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Conjure Barrage"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -1431,13 +1431,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "65",
+            "level": "7",
             "materialComponent": "",
+            "name": "Conjure Celestial",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "7",
-            "spellName": "Conjure Celestial"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -1453,13 +1453,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "66",
+            "level": "5",
             "materialComponent": "burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water",
+            "name": "Conjure Elemental",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Conjure Elemental"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -1475,13 +1475,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "67",
+            "level": "6",
             "materialComponent": "",
+            "name": "Conjure Fey",
             "numClasses": "2",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Conjure Fey"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -1497,13 +1497,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "68",
+            "level": "4",
             "materialComponent": "",
+            "name": "Conjure Minor Elementals",
             "numClasses": "2",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Conjure Minor Elementals"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -1519,13 +1519,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "69",
+            "level": "5",
             "materialComponent": "one piece of ammunition or a thrown weapon",
+            "name": "Conjure Volley",
             "numClasses": "1",
             "range": "150 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Conjure Volley"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -1541,13 +1541,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "70",
+            "level": "4",
             "materialComponent": "one holly berry per\ncreature summoned",
+            "name": "Conjure Woodland Beings",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Conjure Woodland Beings"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -1563,13 +1563,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "71",
+            "level": "5",
             "materialComponent": "",
+            "name": "Contact Other Plane",
             "numClasses": "2",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "5",
-            "spellName": "Contact Other Plane"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -1585,13 +1585,13 @@ let spells = [
             "description": "",
             "duration": "7 days",
             "id": "72",
+            "level": "5",
             "materialComponent": "",
+            "name": "Contagion",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "5",
-            "spellName": "Contagion"
+            "school": "Necromancy"
         },
         {
             "castingTime": "10 minutes",
@@ -1607,13 +1607,13 @@ let spells = [
             "description": "",
             "duration": "10 days",
             "id": "73",
+            "level": "6",
             "materialComponent": "a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp",
+            "name": "Contingency",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Contingency"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1629,13 +1629,13 @@ let spells = [
             "description": "",
             "duration": "Until dispelled",
             "id": "74",
+            "level": "2",
             "materialComponent": "ruby dust worth 50 gp, which the spell consumes",
+            "name": "Continual Flame",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Continual Flame"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1651,13 +1651,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "75",
+            "level": "4",
             "materialComponent": "a drop of water and a pinch of dust",
+            "name": "Control Water",
             "numClasses": "3",
             "range": "300 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "4",
-            "spellName": "Control Water"
+            "school": "Transmutation"
         },
         {
             "castingTime": "10 minutes",
@@ -1673,13 +1673,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 8 hours",
             "id": "76",
+            "level": "8",
             "materialComponent": "burning incense and bits of earth and wood mixed in water",
+            "name": "Control Weather",
             "numClasses": "3",
             "range": "Self (5miles radius)",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "8",
-            "spellName": "Control Weather"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -1695,13 +1695,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "77",
+            "level": "2",
             "materialComponent": "four or more arrows or bolts",
+            "name": "Cordon of Arrows",
             "numClasses": "1",
             "range": "5 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Cordon of Arrows"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell",
@@ -1717,13 +1717,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "78",
+            "level": "3",
             "materialComponent": "",
+            "name": "Counterspell",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Counterspell"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -1739,13 +1739,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "79",
+            "level": "3",
             "materialComponent": "",
+            "name": "Create Food and Water",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Create Food and Water"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -1761,13 +1761,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "80",
+            "level": "1",
             "materialComponent": "a drop of water if creating water or a few grains of sand if destroying it",
+            "name": "Create or Destroy Water",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Create or Destroy Water"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 minute",
@@ -1783,13 +1783,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "81",
+            "level": "6",
             "materialComponent": "one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse",
+            "name": "Create Undead",
             "numClasses": "3",
             "range": "10 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "6",
-            "spellName": "Create Undead"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 minute",
@@ -1805,13 +1805,13 @@ let spells = [
             "description": "",
             "duration": "Special",
             "id": "82",
+            "level": "5",
             "materialComponent": "a tiny piece of matter of the same type of the item you plan to create",
+            "name": "Creation",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "5",
-            "spellName": "Creation"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -1827,13 +1827,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "83",
+            "level": "2",
             "materialComponent": "",
+            "name": "Crown of Madness",
             "numClasses": "4",
             "range": "120 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Crown of Madness"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -1849,13 +1849,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "84",
+            "level": "3",
             "materialComponent": "",
+            "name": "Crusader's Mantle",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Crusader's Mantle"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1871,13 +1871,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "85",
+            "level": "1",
             "materialComponent": "",
+            "name": "Cure Wounds",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Cure Wounds"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1893,13 +1893,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "86",
+            "level": "Cantrip",
             "materialComponent": "a bit of phosphorus or wychwood, or a  glowworm",
+            "name": "Dancing Lights",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Dancing Lights"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1915,13 +1915,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "87",
+            "level": "2",
             "materialComponent": "",
+            "name": "Darkness",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Darkness"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1937,13 +1937,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "88",
+            "level": "2",
             "materialComponent": "either a pinch of dried\ncarrot or an agate",
+            "name": "Darkvision",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Darkvision"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -1959,13 +1959,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "89",
+            "level": "3",
             "materialComponent": "",
+            "name": "Daylight",
             "numClasses": "5",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Daylight"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -1981,13 +1981,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "90",
+            "level": "4",
             "materialComponent": "",
+            "name": "Death Ward",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Death Ward"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -2003,13 +2003,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "91",
+            "level": "7",
             "materialComponent": "a tiny ball of bat\nguano and sulfur",
+            "name": "Delayed Blast Fireball",
             "numClasses": "2",
             "range": "150 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "7",
-            "spellName": "Delayed Blast Fireball"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -2025,13 +2025,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "92",
+            "level": "8",
             "materialComponent": "",
+            "name": "Demiplane",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "8",
-            "spellName": "Demiplane"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -2047,13 +2047,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "93",
+            "level": "5",
             "materialComponent": "",
+            "name": "Destructive Wave (Smite?)",
             "numClasses": "1",
             "range": "Self (30ft radius)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Destructive Wave (Smite?)"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -2069,13 +2069,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "94",
+            "level": "1",
             "materialComponent": "",
+            "name": "Detect Evil and Good",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Detect Evil and Good"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -2091,13 +2091,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "95",
+            "level": "1",
             "materialComponent": "",
+            "name": "Detect Magic",
             "numClasses": "7",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Detect Magic"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -2113,13 +2113,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "96",
+            "level": "1",
             "materialComponent": "a yew leaf",
+            "name": "Detect Poison and Disease",
             "numClasses": "4",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Detect Poison and Disease"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -2135,13 +2135,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "97",
+            "level": "2",
             "materialComponent": "a copper piece",
+            "name": "Detect Thoughts",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "Detect Thoughts"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -2157,13 +2157,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "98",
+            "level": "4",
             "materialComponent": "",
+            "name": "Dimension Door",
             "numClasses": "4",
             "range": "500 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Dimension Door"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -2179,13 +2179,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "99",
+            "level": "1",
             "materialComponent": "",
+            "name": "Disguise Self",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "1",
-            "spellName": "Disguise Self"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -2201,13 +2201,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "100",
+            "level": "6",
             "materialComponent": "a lodestone and a pinch of dust",
+            "name": "Disintegrate",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "6",
-            "spellName": "Disintegrate"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2223,13 +2223,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "101",
+            "level": "5",
             "materialComponent": "holy water or powdered\nsilver and iron",
+            "name": "Dispel Evil and Good",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "5",
-            "spellName": "Dispel Evil and Good"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -2245,13 +2245,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "102",
+            "level": "3",
             "materialComponent": "",
+            "name": "Dispel Magic",
             "numClasses": "7",
             "range": "120 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Dispel Magic"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -2267,13 +2267,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "103",
+            "level": "1",
             "materialComponent": "",
+            "name": "Dissonant Whispers",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Dissonant Whispers"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -2289,13 +2289,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "104",
+            "level": "4",
             "materialComponent": "incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes",
+            "name": "Divination",
             "numClasses": "1",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "4",
-            "spellName": "Divination"
+            "school": "Divination"
         },
         {
             "castingTime": "1 bonus action",
@@ -2311,13 +2311,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "105",
+            "level": "1",
             "materialComponent": "",
+            "name": "Divine Favor",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Divine Favor"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -2333,13 +2333,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "106",
+            "level": "7",
             "materialComponent": "",
+            "name": "Divine Word",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "7",
-            "spellName": "Divine Word"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -2355,13 +2355,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "107",
+            "level": "4",
             "materialComponent": "",
+            "name": "Dominate Beast",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "4",
-            "spellName": "Dominate Beast"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -2377,13 +2377,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "108",
+            "level": "8",
             "materialComponent": "",
+            "name": "Dominate Monster",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "8",
-            "spellName": "Dominate Monster"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -2399,13 +2399,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "109",
+            "level": "5",
             "materialComponent": "",
+            "name": "Dominate Person",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "5",
-            "spellName": "Dominate Person"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 minute",
@@ -2421,13 +2421,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "110",
+            "level": "6",
             "materialComponent": "a sapphire worth 1,000 gp",
+            "name": "Drawmij's Instant Summon",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Drawmij's Instant Summon"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -2443,13 +2443,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "111",
+            "level": "5",
             "materialComponent": "a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird",
+            "name": "Dream",
             "numClasses": "3",
             "range": "Special",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "5",
-            "spellName": "Dream"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -2465,13 +2465,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "112",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Druidcraft",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Druidcraft"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2487,13 +2487,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "113",
+            "level": "8",
             "materialComponent": "a pinch of dirt, a piece of rock, and a lump of clay",
+            "name": "Earthquake",
             "numClasses": "3",
             "range": "500 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "8",
-            "spellName": "Earthquake"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -2509,13 +2509,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "114",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Eldritch Blast",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Eldritch Blast"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -2531,13 +2531,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "115",
+            "level": "3",
             "materialComponent": "",
+            "name": "Elemental Weapon",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Elemental Weapon"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2553,13 +2553,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "116",
+            "level": "2",
             "materialComponent": "fur or a feather from a beast",
+            "name": "Enhance Ability",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Enhance Ability"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2575,13 +2575,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "117",
+            "level": "2",
             "materialComponent": "a pinch of powdered iron",
+            "name": "Enlarge/Reduce",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Enlarge/Reduce"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 bonus action",
@@ -2597,13 +2597,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "118",
+            "level": "1",
             "materialComponent": "",
+            "name": "Ensnaring Strike",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Ensnaring Strike"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -2619,13 +2619,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "119",
+            "level": "1",
             "materialComponent": "",
+            "name": "Entangle",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Entangle"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -2641,13 +2641,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "120",
+            "level": "2",
             "materialComponent": "",
+            "name": "Enthrall",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Enthrall"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -2663,13 +2663,13 @@ let spells = [
             "description": "",
             "duration": "Up to 8 hours",
             "id": "121",
+            "level": "7",
             "materialComponent": "",
+            "name": "Etherealness",
             "numClasses": "5",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "7",
-            "spellName": "Etherealness"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2685,13 +2685,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "122",
+            "level": "4",
             "materialComponent": "a piece o f tentacle from a giant octopus or a giant squid",
+            "name": "Evard's Black Tentacles",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Evard's Black Tentacles"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -2707,13 +2707,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "123",
+            "level": "1",
             "materialComponent": "",
+            "name": "Expeditious Retreat",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Expeditious Retreat"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2729,13 +2729,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "124",
+            "level": "6",
             "materialComponent": "",
+            "name": "Eyebite",
             "numClasses": "4",
             "range": "Self",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "6",
-            "spellName": "Eyebite"
+            "school": "Necromancy"
         },
         {
             "castingTime": "10 minutes",
@@ -2751,13 +2751,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "125",
+            "level": "4",
             "materialComponent": "",
+            "name": "Fabricate",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "4",
-            "spellName": "Fabricate"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2773,13 +2773,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "126",
+            "level": "1",
             "materialComponent": "",
+            "name": "Faerire Fire",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Faerire Fire"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -2795,13 +2795,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "127",
+            "level": "1",
             "materialComponent": "a small amount of alcohol or distilled spirits",
+            "name": "False Life",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "1",
-            "spellName": "False Life"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -2817,13 +2817,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "128",
+            "level": "3",
             "materialComponent": "a white feather or the\nheart of a hen",
+            "name": "Fear",
             "numClasses": "4",
             "range": "Self (30ft cone)",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "3",
-            "spellName": "Fear"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls",
@@ -2839,13 +2839,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "129",
+            "level": "1",
             "materialComponent": "a small feather or piece of down",
+            "name": "Feather Fall",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Feather Fall"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -2861,13 +2861,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "130",
+            "level": "8",
             "materialComponent": "a handful of clay, crystal, glass, or mineral spheres",
+            "name": "Feeblemind",
             "numClasses": "4",
             "range": "150 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "8",
-            "spellName": "Feeblemind"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -2883,13 +2883,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "131",
+            "level": "3",
             "materialComponent": "a pinch of graveyard dirt",
+            "name": "Feign Death",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Necromancy",
-            "spellLevel": "3",
-            "spellName": "Feign Death"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 hour",
@@ -2905,13 +2905,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "132",
+            "level": "1",
             "materialComponent": "10 gp worth of charcoal,\nincense, and herbs that must be consumed by fire in a brass brazier",
+            "name": "Find Familiar",
             "numClasses": "1",
             "range": "10 ft",
             "ritual": "Ritual",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Find Familiar"
+            "school": "Conjuration"
         },
         {
             "castingTime": "10 minutes",
@@ -2927,13 +2927,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "133",
+            "level": "2",
             "materialComponent": "",
+            "name": "Find Steed",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "2",
-            "spellName": "Find Steed"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -2949,13 +2949,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 day",
             "id": "134",
+            "level": "6",
             "materialComponent": "a set o f divinatory tools\u2014such as bones, ivory sticks, cards, teeth, or carved runes\u2014worth 100 gp and an object from the location you wish to find",
+            "name": "Find the Path",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "6",
-            "spellName": "Find the Path"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -2971,13 +2971,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "135",
+            "level": "2",
             "materialComponent": "",
+            "name": "Find Traps",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "Find Traps"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -2993,13 +2993,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "136",
+            "level": "7",
             "materialComponent": "",
+            "name": "Finger of Death",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "7",
-            "spellName": "Finger of Death"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -3015,13 +3015,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "137",
+            "level": "3",
             "materialComponent": "a tiny ball of bat\nguano and sulfur",
+            "name": "Fireball",
             "numClasses": "2",
             "range": "150 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Fireball"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3037,13 +3037,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "138",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Fire Bolt",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Fire Bolt"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3059,13 +3059,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "139",
+            "level": "4",
             "materialComponent": "a bit of phosphorus or a firefly",
+            "name": "Fire Shield",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "4",
-            "spellName": "Fire Shield"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3081,13 +3081,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "140",
+            "level": "7",
             "materialComponent": "",
+            "name": "Fire Storm",
             "numClasses": "3",
             "range": "150 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "7",
-            "spellName": "Fire Storm"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -3103,13 +3103,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "141",
+            "level": "2",
             "materialComponent": "leaf of sumac",
+            "name": "Flame Blade",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Flame Blade"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3125,13 +3125,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "142",
+            "level": "5",
             "materialComponent": "pinch of sulfur",
+            "name": "Flame Strike",
             "numClasses": "0",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Flame Strike"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3147,13 +3147,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "143",
+            "level": "2",
             "materialComponent": "a bit of tallow, a pinch of brimstone, and a dusting of powdered iron",
+            "name": "Flaming Sphere",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "2",
-            "spellName": "Flaming Sphere"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -3169,13 +3169,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "144",
+            "level": "6",
             "materialComponent": "a pinch of lime, water, and earth",
+            "name": "Flesh to Stone",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "6",
-            "spellName": "Flesh to Stone"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -3191,13 +3191,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "145",
+            "level": "3",
             "materialComponent": "a wing feather from any bird",
+            "name": "Fly",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Fly"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -3213,13 +3213,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "146",
+            "level": "1",
             "materialComponent": "",
+            "name": "Fog Cloud",
             "numClasses": "4",
             "range": "120 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Fog Cloud"
+            "school": "Conjuration"
         },
         {
             "castingTime": "10 minutes",
@@ -3235,13 +3235,13 @@ let spells = [
             "description": "",
             "duration": "1 day",
             "id": "147",
+            "level": "6",
             "materialComponent": "a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp",
+            "name": "Forbiddance",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Abjuration",
-            "spellLevel": "6",
-            "spellName": "Forbiddance"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -3257,13 +3257,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "148",
+            "level": "7",
             "materialComponent": "ruby dust worth 1,500 gp",
+            "name": "Forcecage",
             "numClasses": "3",
             "range": "100 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "7",
-            "spellName": "Forcecage"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 minute",
@@ -3279,13 +3279,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "149",
+            "level": "9",
             "materialComponent": "a hummingbird feather",
+            "name": "Foresight",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "9",
-            "spellName": "Foresight"
+            "school": "Divination"
         },
         {
             "castingTime": "Touch",
@@ -3301,13 +3301,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "150",
+            "level": "4",
             "materialComponent": "a leather strap, bound around the arm or a similar appendage",
+            "name": "Freedom of Movement",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Freedom of Movement"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -3323,13 +3323,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "151",
+            "level": "Cantrip",
             "materialComponent": "a small amount of makeup applied to the face as this spell is cast",
+            "name": "Friends",
             "numClasses": "4",
             "range": "Self",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "Cantrip",
-            "spellName": "Friends"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -3345,13 +3345,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "152",
+            "level": "3",
             "materialComponent": "a bit o f gauze and a\nwisp of smoke",
+            "name": "Gaseous Form",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Gaseous Form"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -3367,13 +3367,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "153",
+            "level": "9",
             "materialComponent": "a diamond worth at least 5,000 gp",
+            "name": "Gate",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "9",
-            "spellName": "Gate"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -3389,13 +3389,13 @@ let spells = [
             "description": "",
             "duration": "30 days",
             "id": "154",
+            "level": "5",
             "materialComponent": "",
+            "name": "Geas",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "5",
-            "spellName": "Geas"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -3411,13 +3411,13 @@ let spells = [
             "description": "",
             "duration": "10 days",
             "id": "155",
+            "level": "2",
             "materialComponent": "a pinch of salt and one copper piece placed on each o f the corpse\u2019s eyes, which must remain there for the duration",
+            "name": "Gentle Repose",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Necromancy",
-            "spellLevel": "2",
-            "spellName": "Gentle Repose"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -3433,13 +3433,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "156",
+            "level": "4",
             "materialComponent": "",
+            "name": "Giant Insect",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "4",
-            "spellName": "Giant Insect"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -3455,13 +3455,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "157",
+            "level": "8",
             "materialComponent": "",
+            "name": "Glibness",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "8",
-            "spellName": "Glibness"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -3477,13 +3477,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "158",
+            "level": "6",
             "materialComponent": "glass or crystal bead that shatters when the spell ends",
+            "name": "Globe of Invulnerability",
             "numClasses": "2",
             "range": "Self (10ft radius)",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "6",
-            "spellName": "Globe of Invulnerability"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 hour",
@@ -3499,13 +3499,13 @@ let spells = [
             "description": "",
             "duration": "Until dispelled or triggered",
             "id": "159",
+            "level": "3",
             "materialComponent": "incense and powdered diamond worth at least 200 gp, which the spell consumes",
+            "name": "Glyph of Warding",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Glyph of Warding"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -3521,13 +3521,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "160",
+            "level": "1",
             "materialComponent": "a sprig of mistletoe",
+            "name": "Goodberry",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Goodberry"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 bonus action",
@@ -3543,13 +3543,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "161",
+            "level": "4",
             "materialComponent": "",
+            "name": "Grasping Wine",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Grasping Wine"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -3565,13 +3565,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "162",
+            "level": "1",
             "materialComponent": "a bit of pork rind or butter",
+            "name": "Grease",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Grease"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -3587,13 +3587,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "163",
+            "level": "4",
             "materialComponent": "",
+            "name": "Greater Invisibility",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "4",
-            "spellName": "Greater Invisibility"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -3609,13 +3609,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "164",
+            "level": "5",
             "materialComponent": "diamond dust worth at least 100 gp, which the spell consumes",
+            "name": "Greater Restoration",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "5",
-            "spellName": "Greater Restoration"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -3631,13 +3631,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "165",
+            "level": "4",
             "materialComponent": "",
+            "name": "Guardian of Faith",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Guardian of Faith"
+            "school": "Conjuration"
         },
         {
             "castingTime": "10 minutes",
@@ -3653,13 +3653,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "166",
+            "level": "6",
             "materialComponent": "burning incense, a small measure o f brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp",
+            "name": "Guards and Wards",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "6",
-            "spellName": "Guards and Wards"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -3675,13 +3675,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "167",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Guidance",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "Cantrip",
-            "spellName": "Guidance"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -3697,13 +3697,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "168",
+            "level": "1",
             "materialComponent": "",
+            "name": "Guiding Bolt",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Guiding Bolt"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3719,13 +3719,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "169",
+            "level": "2",
             "materialComponent": "a legume seed",
+            "name": "Gust of Wind",
             "numClasses": "3",
             "range": "Self (60ft line)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Gust of Wind"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -3741,13 +3741,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "170",
+            "level": "1",
             "materialComponent": "",
+            "name": "Hail of Thorns",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Hail of Thorns"
+            "school": "Conjuration"
         },
         {
             "castingTime": "24 hours",
@@ -3763,13 +3763,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "171",
+            "level": "5",
             "materialComponent": "herbs, oils, and incense worth at least 1,000 gp, which the spell consumes",
+            "name": "Hallow",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Hallow"
+            "school": "Evocation"
         },
         {
             "castingTime": "10 minutes",
@@ -3785,13 +3785,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "172",
+            "level": "4",
             "materialComponent": "a stone, a twig, and a bit of green plant",
+            "name": "Hallucinatory Terrain",
             "numClasses": "4",
             "range": "300 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "4",
-            "spellName": "Hallucinatory Terrain"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -3807,13 +3807,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "173",
+            "level": "6",
             "materialComponent": "",
+            "name": "Harm",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "6",
-            "spellName": "Harm"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -3829,13 +3829,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "174",
+            "level": "3",
             "materialComponent": "a shaving of licorice root",
+            "name": "Haste",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Haste"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -3851,13 +3851,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "175",
+            "level": "6",
             "materialComponent": "",
+            "name": "Heal",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Heal"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -3873,13 +3873,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "176",
+            "level": "1",
             "materialComponent": "",
+            "name": "Healing Word",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Healing Word"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -3895,13 +3895,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "177",
+            "level": "2",
             "materialComponent": "a piece of iron and a flame",
+            "name": "Heat Metal",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Heat Metal"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see",
@@ -3917,13 +3917,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "178",
+            "level": "1",
             "materialComponent": "",
+            "name": "Hellish Rebuke",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Hellish Rebuke"
+            "school": "Evocation"
         },
         {
             "castingTime": "10 minutes",
@@ -3939,13 +3939,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "179",
+            "level": "6",
             "materialComponent": "a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes",
+            "name": "Heroes's Feast",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Heroes's Feast"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -3961,13 +3961,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "180",
+            "level": "1",
             "materialComponent": "",
+            "name": "Heroism",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Heroism"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 bonus action",
@@ -3983,13 +3983,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "181",
+            "level": "1",
             "materialComponent": "the petrified eye of a newt",
+            "name": "Hex",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Hex"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -4005,13 +4005,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "182",
+            "level": "5",
             "materialComponent": "a small, straight piece of iron",
+            "name": "Hold Monster",
             "numClasses": "4",
             "range": "90 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "5",
-            "spellName": "Hold Monster"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -4027,13 +4027,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "183",
+            "level": "2",
             "materialComponent": "a small, straight piece of iron",
+            "name": "Hold Person",
             "numClasses": "6",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Hold Person"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -4049,13 +4049,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "184",
+            "level": "8",
             "materialComponent": "a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint\u2019s robe or a piece of parchment from a religious text",
+            "name": "Holy Aura",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "8",
-            "spellName": "Holy Aura"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -4071,13 +4071,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "185",
+            "level": "3",
             "materialComponent": "a pickled octopus tentacle",
+            "name": "Hunger of Hadar",
             "numClasses": "1",
             "range": "150 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Hunger of Hadar"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -4093,13 +4093,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "186",
+            "level": "1",
             "materialComponent": "",
+            "name": "Hunter's Mask",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Hunter's Mask"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -4115,13 +4115,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "187",
+            "level": "3",
             "materialComponent": "a glowing stick of incense or a crystal vial filled with phosphorescent material",
+            "name": "Hypnotic Pattern",
             "numClasses": "4",
             "range": "120 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "3",
-            "spellName": "Hypnotic Pattern"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -4137,13 +4137,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "188",
+            "level": "4",
             "materialComponent": "a pinch of dust and a few drops of water",
+            "name": "Ice Storm",
             "numClasses": "3",
             "range": "300 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "4",
-            "spellName": "Ice Storm"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 minute",
@@ -4159,13 +4159,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "189",
+            "level": "1",
             "materialComponent": "a pearl worth at least 100 gp and an owl feather",
+            "name": "Identify",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Identify"
+            "school": "Divination"
         },
         {
             "castingTime": "1 minute",
@@ -4181,13 +4181,13 @@ let spells = [
             "description": "",
             "duration": "10 days",
             "id": "190",
+            "level": "1",
             "materialComponent": "a lead-based ink worth at least 10 gp, which the spell consumes",
+            "name": "Illusory Script",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Illusion",
-            "spellLevel": "1",
-            "spellName": "Illusory Script"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 minute",
@@ -4203,13 +4203,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "191",
+            "level": "9",
             "materialComponent": "a vellum depiction or a carved statuette in the likeness o f the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target",
+            "name": "Imprisonment",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "9",
-            "spellName": "Imprisonment"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -4225,13 +4225,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "192",
+            "level": "8",
             "materialComponent": "",
+            "name": "Incendiary Cloud",
             "numClasses": "2",
             "range": "150 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "8",
-            "spellName": "Incendiary Cloud"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -4247,13 +4247,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "193",
+            "level": "1",
             "materialComponent": "",
+            "name": "Inflict Wounds",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "1",
-            "spellName": "Inflict Wounds"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -4269,13 +4269,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "194",
+            "level": "5",
             "materialComponent": "a few grains of sugar, some kernels of grain, and a smear of fat",
+            "name": "Insect Plague",
             "numClasses": "3",
             "range": "300 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Insect Plague"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -4291,13 +4291,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "195",
+            "level": "2",
             "materialComponent": "an eyelash encased in gum arabic",
+            "name": "Invisibility",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Invisibility"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -4313,13 +4313,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "196",
+            "level": "1",
             "materialComponent": "a grasshopper\u2019s hind leg",
+            "name": "Jump",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Jump"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4335,13 +4335,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "197",
+            "level": "2",
             "materialComponent": "",
+            "name": "Knock",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Knock"
+            "school": "Transmutation"
         },
         {
             "castingTime": "10 minutes",
@@ -4357,13 +4357,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "198",
+            "level": "5",
             "materialComponent": "incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each",
+            "name": "Legend Lore",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "5",
-            "spellName": "Legend Lore"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -4379,13 +4379,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "199",
+            "level": "4",
             "materialComponent": "an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp",
+            "name": "Leomund's Secret Chest",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Leomund's Secret Chest"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -4401,13 +4401,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "200",
+            "level": "3",
             "materialComponent": "a small crystal bead",
+            "name": "Leomund's Tiny Hut",
             "numClasses": "2",
             "range": "Self (10ft radius hemisphere)",
             "ritual": "Ritual",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Leomund's Tiny Hut"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -4423,13 +4423,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "201",
+            "level": "2",
             "materialComponent": "",
+            "name": "Lesser Restoration",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Abjuration",
-            "spellLevel": "2",
-            "spellName": "Lesser Restoration"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -4445,13 +4445,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "202",
+            "level": "2",
             "materialComponent": "either a small leather loop or a piece of golden  wire bent into a cup shape with a long shank on one end",
+            "name": "Levitate",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Levitate"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4467,13 +4467,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "203",
+            "level": "Cantrip",
             "materialComponent": "a firefly or  phosphorescent moss",
+            "name": "Light",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Light"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -4489,13 +4489,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "204",
+            "level": "3",
             "materialComponent": "",
+            "name": "Lightning Arrow",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Lightning Arrow"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4511,13 +4511,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "205",
+            "level": "3",
             "materialComponent": "a bit of fur and a rod of amber, crystal, or glass",
+            "name": "Lightning Bolt",
             "numClasses": "2",
             "range": "Self (100ft Line)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Lightning Bolt"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -4533,13 +4533,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "206",
+            "level": "2",
             "materialComponent": "a bit of fur from a bloodhound",
+            "name": "Locate Animals or Plants",
             "numClasses": "3",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "Locate Animals or Plants"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -4555,13 +4555,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "207",
+            "level": "4",
             "materialComponent": "a bit of fur from a bloodhound",
+            "name": "Locate Creature",
             "numClasses": "6",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "4",
-            "spellName": "Locate Creature"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -4577,13 +4577,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "208",
+            "level": "2",
             "materialComponent": "a forked twig",
+            "name": "Locate Object",
             "numClasses": "4",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "Locate Object"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -4599,13 +4599,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "209",
+            "level": "1",
             "materialComponent": "a pinch of dirt",
+            "name": "Longstrider",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Longstrider"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4621,13 +4621,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "210",
+            "level": "1",
             "materialComponent": "a piece of cured leather",
+            "name": "Mage Armor",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Mage Armor"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -4643,13 +4643,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "211",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Mage Hand",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "Cantrip",
-            "spellName": "Mage Hand"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -4665,13 +4665,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "212",
+            "level": "3",
             "materialComponent": "holy water or powdered\nsilver and iron worth at least 100 gp, which the\nspell consumes",
+            "name": "Magic Circle",
             "numClasses": "4",
             "range": "10 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Magic Circle"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 minute",
@@ -4687,13 +4687,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "213",
+            "level": "6",
             "materialComponent": "a gem, crystal, reliquary, or some other  ornamental container worth at least 500 gp",
+            "name": "Magic Jar",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "6",
-            "spellName": "Magic Jar"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -4709,13 +4709,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "214",
+            "level": "1",
             "materialComponent": "",
+            "name": "Magic Missile",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Magic Missile"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 minute",
@@ -4731,13 +4731,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "215",
+            "level": "2",
             "materialComponent": "a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes",
+            "name": "Magic Mouth",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Magic Mouth"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 bonus action",
@@ -4753,13 +4753,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "216",
+            "level": "2",
             "materialComponent": "",
+            "name": "Magic Weapon",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Magic Weapon"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4775,13 +4775,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "217",
+            "level": "3",
             "materialComponent": "a bit of fleece",
+            "name": "Major Image",
             "numClasses": "4",
             "range": "120 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "3",
-            "spellName": "Major Image"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -4797,13 +4797,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "218",
+            "level": "5",
             "materialComponent": "",
+            "name": "Mass Cure Wounds",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Mass Cure Wounds"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -4819,13 +4819,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "219",
+            "level": "9",
             "materialComponent": "",
+            "name": "Mass Heal",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "9",
-            "spellName": "Mass Heal"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -4841,13 +4841,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "220",
+            "level": "3",
             "materialComponent": "",
+            "name": "Mass Healing Word",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Mass Healing Word"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -4863,13 +4863,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "221",
+            "level": "6",
             "materialComponent": "a snake\u2019s tongue and either a bit of honeycomb or a drop of sweet oil",
+            "name": "Mass Suggestion",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "6",
-            "spellName": "Mass Suggestion"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -4885,13 +4885,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "222",
+            "level": "8",
             "materialComponent": "",
+            "name": "Maze",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "8",
-            "spellName": "Maze"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -4907,13 +4907,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "223",
+            "level": "3",
             "materialComponent": "",
+            "name": "Meld Into Stone",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "Ritual",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Meld Into Stone"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4929,13 +4929,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "224",
+            "level": "2",
             "materialComponent": "powdered rhubarb leaf and an adder\u2019s stomach",
+            "name": "Melf's Acid Arrow",
             "numClasses": "1",
             "range": "90 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Melf's Acid Arrow"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 minute",
@@ -4951,13 +4951,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "225",
+            "level": "Cantrip",
             "materialComponent": "two lodestones",
+            "name": "Mending",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Mending"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4973,13 +4973,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "226",
+            "level": "Cantrip",
             "materialComponent": "a short piece of copper wire",
+            "name": "Message",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Message"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -4995,13 +4995,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "227",
+            "level": "9",
             "materialComponent": "",
+            "name": "Meteor Swarm",
             "numClasses": "2",
             "range": "1 mile",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "9",
-            "spellName": "Meteor Swarm"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5017,13 +5017,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "228",
+            "level": "8",
             "materialComponent": "",
+            "name": "Mind Blank",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "8",
-            "spellName": "Mind Blank"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5039,13 +5039,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "229",
+            "level": "Cantrip",
             "materialComponent": "a bit of fleece",
+            "name": "Minor Illusion",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "Cantrip",
-            "spellName": "Minor Illusion"
+            "school": "Illusion"
         },
         {
             "castingTime": "10 minutes",
@@ -5061,13 +5061,13 @@ let spells = [
             "description": "",
             "duration": "10 days",
             "id": "230",
+            "level": "7",
             "materialComponent": "",
+            "name": "Mirage Arcane",
             "numClasses": "3",
             "range": "Sight",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "7",
-            "spellName": "Mirage Arcane"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -5083,13 +5083,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "231",
+            "level": "2",
             "materialComponent": "",
+            "name": "Mirror Image",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Mirror Image"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -5105,13 +5105,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "232",
+            "level": "5",
             "materialComponent": "",
+            "name": "Mislead",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "5",
-            "spellName": "Mislead"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 bonus action",
@@ -5127,13 +5127,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "233",
+            "level": "2",
             "materialComponent": "",
+            "name": "Misty Step",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "2",
-            "spellName": "Misty Step"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -5149,13 +5149,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "234",
+            "level": "5",
             "materialComponent": "",
+            "name": "Modify Memory",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "5",
-            "spellName": "Modify Memory"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -5171,13 +5171,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "235",
+            "level": "2",
             "materialComponent": "several seeds o f any m oonseed plant and a piece of opalescent feldspar",
+            "name": "Moonbeam",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Moonbeam"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5193,13 +5193,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "236",
+            "level": "4",
             "materialComponent": "a tiny silver whistle, a piece of bone, and a thread",
+            "name": "Mordekainen's Faithful Hound",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "4",
-            "spellName": "Mordekainen's Faithful Hound"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -5215,13 +5215,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "237",
+            "level": "7",
             "materialComponent": "a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item  worth at least 5 gp",
+            "name": "Mordekainen's Magnificent Mansion",
             "numClasses": "2",
             "range": "300 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "7",
-            "spellName": "Mordekainen's Magnificent Mansion"
+            "school": "Conjuration"
         },
         {
             "castingTime": "10 minutes",
@@ -5237,13 +5237,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "238",
+            "level": "4",
             "materialComponent": "a thin sheet o f lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite",
+            "name": "Mordekainen's Private Sanctum",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Mordekainen's Private Sanctum"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5259,13 +5259,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "239",
+            "level": "7",
             "materialComponent": "a miniature platinum sword with a grip and pommel o f copper and zinc, worth 250 gp",
+            "name": "Mordekainen's Sword",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "7",
-            "spellName": "Mordekainen's Sword"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5281,13 +5281,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 2 hours",
             "id": "240",
+            "level": "6",
             "materialComponent": "an iron blade and a small bag containing a mixture of  oils\u2014clay, loam, and sand",
+            "name": "Move Earth",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "6",
-            "spellName": "Move Earth"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -5303,13 +5303,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "241",
+            "level": "3",
             "materialComponent": "a pinch of diamond dust\nworth 25 gp sprinkled over the target, which the spell consumes",
+            "name": "Nondetection",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Nondetection"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5325,13 +5325,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "242",
+            "level": "2",
             "materialComponent": "a small square of silk",
+            "name": "Nystul's Magic Aura",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Nystul's Magic Aura"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -5347,13 +5347,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "243",
+            "level": "6",
             "materialComponent": "a small crystal sphere",
+            "name": "Otiluke Freezing Sphere",
             "numClasses": "1",
             "range": "300 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Otiluke Freezing Sphere"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5369,13 +5369,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "244",
+            "level": "4",
             "materialComponent": "a hemispherical piece of\nclear crystal and a matching hemispherical piece of gum arabic",
+            "name": "Otiluke resilient Sphere",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "4",
-            "spellName": "Otiluke resilient Sphere"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5391,13 +5391,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "245",
+            "level": "6",
             "materialComponent": "",
+            "name": "Otto's Irresistible Dance",
             "numClasses": "2",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "6",
-            "spellName": "Otto's Irresistible Dance"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -5413,13 +5413,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "246",
+            "level": "2",
             "materialComponent": "ashes from a burned leaf of\nmistletoe and a sprig of spruce",
+            "name": "Pass Without Trace",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "2",
-            "spellName": "Pass Without Trace"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5435,13 +5435,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "247",
+            "level": "5",
             "materialComponent": "a pinch of sesame seeds",
+            "name": "Passwall",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "5",
-            "spellName": "Passwall"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -5457,13 +5457,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "248",
+            "level": "2",
             "materialComponent": "a bit of fleece",
+            "name": "Phantasmal Force",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Phantasmal Force"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -5479,13 +5479,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "249",
+            "level": "4",
             "materialComponent": "",
+            "name": "Phantasmal Killer",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "4",
-            "spellName": "Phantasmal Killer"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 minute",
@@ -5501,13 +5501,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "250",
+            "level": "3",
             "materialComponent": "",
+            "name": "Phantom Seed",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Illusion",
-            "spellLevel": "3",
-            "spellName": "Phantom Seed"
+            "school": "Illusion"
         },
         {
             "castingTime": "10 minutes",
@@ -5523,13 +5523,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "251",
+            "level": "6",
             "materialComponent": "",
+            "name": "Planar Ally",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Planar Ally"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 hour",
@@ -5545,13 +5545,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "252",
+            "level": "5",
             "materialComponent": "a jewel worth at least 1,000 gp, which the spell consumes",
+            "name": "Planar Binding",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "5",
-            "spellName": "Planar Binding"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5567,13 +5567,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "253",
+            "level": "7",
             "materialComponent": "a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence",
+            "name": "Plane Shift",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "7",
-            "spellName": "Plane Shift"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action or 8 hours",
@@ -5589,13 +5589,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "254",
+            "level": "3",
             "materialComponent": "",
+            "name": "Plant Growth",
             "numClasses": "3",
             "range": "150 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Plant Growth"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -5611,13 +5611,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "255",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Poison Spray",
             "numClasses": "4",
             "range": "10 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "Cantrip",
-            "spellName": "Poison Spray"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -5633,13 +5633,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "256",
+            "level": "4",
             "materialComponent": "a caterpillar cocoon",
+            "name": "Polymorph",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "4",
-            "spellName": "Polymorph"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -5655,13 +5655,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "257",
+            "level": "9",
             "materialComponent": "",
+            "name": "Power Word Heal",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "9",
-            "spellName": "Power Word Heal"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5677,13 +5677,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "258",
+            "level": "9",
             "materialComponent": "",
+            "name": "Power Word Kill",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "9",
-            "spellName": "Power Word Kill"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -5699,13 +5699,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "259",
+            "level": "8",
             "materialComponent": "",
+            "name": "Power Word Stun",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "8",
-            "spellName": "Power Word Stun"
+            "school": "Enchantment"
         },
         {
             "castingTime": "10 minutes",
@@ -5721,13 +5721,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "260",
+            "level": "2",
             "materialComponent": "",
+            "name": "Prayer of Healing",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Prayer of Healing"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5743,13 +5743,13 @@ let spells = [
             "description": "",
             "duration": "Up to 1 hour",
             "id": "261",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Prestidigitation",
             "numClasses": "4",
             "range": "10 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Prestidigitation"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -5765,13 +5765,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "262",
+            "level": "7",
             "materialComponent": "",
+            "name": "Prismatic Spray",
             "numClasses": "2",
             "range": "Sel f (60-foot cone)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "7",
-            "spellName": "Prismatic Spray"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -5787,13 +5787,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "263",
+            "level": "9",
             "materialComponent": "",
+            "name": "Prismatic Wall",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "9",
-            "spellName": "Prismatic Wall"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5809,13 +5809,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "264",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Produce Flame",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "Cantrip",
-            "spellName": "Produce Flame"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -5831,13 +5831,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "265",
+            "level": "6",
             "materialComponent": "a bit of fleece and jade dust worth at least 25 gp",
+            "name": "Programmed Illusion",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "6",
-            "spellName": "Programmed Illusion"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -5853,13 +5853,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 day",
             "id": "266",
+            "level": "7",
             "materialComponent": "a small replica of you made from materials worth at least 5 gp",
+            "name": "Project Image",
             "numClasses": "2",
             "range": "500 miles",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "7",
-            "spellName": "Project Image"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -5875,13 +5875,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "267",
+            "level": "3",
             "materialComponent": "",
+            "name": "Protection From Energy",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Protection From Energy"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5897,13 +5897,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "268",
+            "level": "1",
             "materialComponent": "holy water or powdered silver and iron, which the spell consumes",
+            "name": "Protection From Evil and Good",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Protection From Evil and Good"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5919,13 +5919,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "269",
+            "level": "2",
             "materialComponent": "",
+            "name": "Protection From Poison",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "2",
-            "spellName": "Protection From Poison"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -5941,13 +5941,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "270",
+            "level": "1",
             "materialComponent": "",
+            "name": "Purify Food and Drink",
             "numClasses": "3",
             "range": "10 ft",
             "ritual": "Ritual",
-            "school": "Transmutation",
-            "spellLevel": "1",
-            "spellName": "Purify Food and Drink"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 hour",
@@ -5963,13 +5963,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "271",
+            "level": "5",
             "materialComponent": "a diamond worth at least 500 gp, which the spell consumes",
+            "name": "Raise Dead",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "5",
-            "spellName": "Raise Dead"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -5985,13 +5985,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "272",
+            "level": "5",
             "materialComponent": "pieces o f eggshell from two different kinds of creatures",
+            "name": "Rary's Telepathic Bond",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "5",
-            "spellName": "Rary's Telepathic Bond"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -6007,13 +6007,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "273",
+            "level": "2",
             "materialComponent": "",
+            "name": "Ray of Enfeeblement",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "2",
-            "spellName": "Ray of Enfeeblement"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -6029,13 +6029,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "274",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Ray of Frost",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Ray of Frost"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -6051,13 +6051,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "275",
+            "level": "1",
             "materialComponent": "",
+            "name": "Ray of Sickness",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "1",
-            "spellName": "Ray of Sickness"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 minute",
@@ -6073,13 +6073,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "276",
+            "level": "7",
             "materialComponent": "a prayer wheel and holy water",
+            "name": "Regenerate",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "7",
-            "spellName": "Regenerate"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 hour",
@@ -6095,13 +6095,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "277",
+            "level": "5",
             "materialComponent": "rare oils and unguents worth at least 1,000 gp, which the spell consumes",
+            "name": "Reincarnate",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "5",
-            "spellName": "Reincarnate"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6117,13 +6117,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "278",
+            "level": "3",
             "materialComponent": "",
+            "name": "Remove Curse",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "3",
-            "spellName": "Remove Curse"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -6139,13 +6139,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "279",
+            "level": "Cantrip",
             "materialComponent": "a miniature cloak",
+            "name": "Resistance",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "Cantrip",
-            "spellName": "Resistance"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 hour",
@@ -6161,13 +6161,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "280",
+            "level": "7",
             "materialComponent": "a diamond worth at least 1,000 gp, which the spell consumes",
+            "name": "Resurrection",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "7",
-            "spellName": "Resurrection"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -6183,13 +6183,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "281",
+            "level": "7",
             "materialComponent": "a lodestone and iron filings",
+            "name": "Reverse Gravity",
             "numClasses": "3",
             "range": "100 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "7",
-            "spellName": "Reverse Gravity"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6205,13 +6205,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "282",
+            "level": "3",
             "materialComponent": "diamonds worth 300 gp, which the spell consumes",
+            "name": "Revivify",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Revivify"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -6227,13 +6227,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "283",
+            "level": "2",
             "materialComponent": "powdered corn extract and a twisted loop of  archment",
+            "name": "Rope Trick",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Rope Trick"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6249,13 +6249,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "284",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Sacred Flame",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Sacred Flame"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -6271,13 +6271,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "285",
+            "level": "1",
             "materialComponent": "a small silver mirror",
+            "name": "Sanctuary",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Sanctuary"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -6293,13 +6293,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "286",
+            "level": "2",
             "materialComponent": "",
+            "name": "Scorching Ray",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Scorching Ray"
+            "school": "Evocation"
         },
         {
             "castingTime": "10 minutes",
@@ -6315,13 +6315,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "287",
+            "level": "5",
             "materialComponent": "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water",
+            "name": "Scrying",
             "numClasses": "5",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "5",
-            "spellName": "Scrying"
+            "school": "Divination"
         },
         {
             "castingTime": "1 bonus action",
@@ -6337,13 +6337,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "288",
+            "level": "1",
             "materialComponent": "",
+            "name": "Searing Smite",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Searing Smite"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -6359,13 +6359,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "289",
+            "level": "2",
             "materialComponent": "a pinch o f talc and a small sprinkling of powdered silver",
+            "name": "See Invisibility",
             "numClasses": "3",
             "range": "Self",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "2",
-            "spellName": "See Invisibility"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -6381,13 +6381,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "290",
+            "level": "5",
             "materialComponent": "",
+            "name": "Seeming",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "5",
-            "spellName": "Seeming"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -6403,13 +6403,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "291",
+            "level": "3",
             "materialComponent": "a short piece of fine copper wire",
+            "name": "Sending",
             "numClasses": "3",
             "range": "Unlimited",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Sending"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -6425,13 +6425,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "292",
+            "level": "7",
             "materialComponent": "a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes",
+            "name": "Sequester",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "7",
-            "spellName": "Sequester"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6447,13 +6447,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "293",
+            "level": "9",
             "materialComponent": "a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell",
+            "name": "Shapechange",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "9",
-            "spellName": "Shapechange"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6469,13 +6469,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "294",
+            "level": "2",
             "materialComponent": "a chip of mica",
+            "name": "Shatter",
             "numClasses": "4",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Shatter"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spel",
@@ -6491,13 +6491,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "295",
+            "level": "1",
             "materialComponent": "",
+            "name": "Shield",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Shield"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -6513,13 +6513,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "296",
+            "level": "1",
             "materialComponent": "",
+            "name": "Shield of Faith",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "1",
-            "spellName": "Shield of Faith"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -6535,13 +6535,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "297",
+            "level": "Cantrip",
             "materialComponent": "mistletoe, a shamrock leaf, and a club or quarterstaff",
+            "name": "Shillelagh",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Shillelagh"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6557,13 +6557,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "298",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Shocking Grasp",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "Cantrip",
-            "spellName": "Shocking Grasp"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -6579,13 +6579,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "299",
+            "level": "2",
             "materialComponent": "",
+            "name": "Silence",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "Ritual",
-            "school": "Illusion",
-            "spellLevel": "2",
-            "spellName": "Silence"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -6601,13 +6601,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "300",
+            "level": "1",
             "materialComponent": "a bit of fleece",
+            "name": "Silent Image",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "1",
-            "spellName": "Silent Image"
+            "school": "Illusion"
         },
         {
             "castingTime": "12 hours",
@@ -6623,13 +6623,13 @@ let spells = [
             "description": "",
             "duration": "Until Dispelled",
             "id": "301",
+            "level": "7",
             "materialComponent": "snow or ice in quantities sufficient to made a life-size  opy of the duplicated creature; some hair, fingernail clippings, or other piece o f that creature\u2019s body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell",
+            "name": "Simulacrum",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "7",
-            "spellName": "Simulacrum"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 action",
@@ -6645,13 +6645,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "302",
+            "level": "1",
             "materialComponent": "a pinch of fine sand, rose petals, or a cricket",
+            "name": "Sleep",
             "numClasses": "3",
             "range": "90 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Sleep"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -6667,13 +6667,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "303",
+            "level": "3",
             "materialComponent": "a pinch of dust and a few\ndrops o f water",
+            "name": "Sleet Storm",
             "numClasses": "3",
             "range": "150 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Sleet Storm"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -6689,13 +6689,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "304",
+            "level": "3",
             "materialComponent": "a drop of molasses",
+            "name": "Slow",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Slow"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6711,13 +6711,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "305",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Spare the Dying",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "Cantrip",
-            "spellName": "Spare the Dying"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -6733,13 +6733,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "306",
+            "level": "1",
             "materialComponent": "",
+            "name": "Speak with Animals",
             "numClasses": "3",
             "range": "Self",
             "ritual": "Ritual",
-            "school": "Divination",
-            "spellLevel": "1",
-            "spellName": "Speak with Animals"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -6755,13 +6755,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "307",
+            "level": "3",
             "materialComponent": "burning incense",
+            "name": "Speak with Dead",
             "numClasses": "2",
             "range": "10 ft",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "3",
-            "spellName": "Speak with Dead"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -6777,13 +6777,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "308",
+            "level": "3",
             "materialComponent": "",
+            "name": "Speak with Plants",
             "numClasses": "3",
             "range": "Self (30-foot radius)",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Speak with Plants"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6799,13 +6799,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "309",
+            "level": "2",
             "materialComponent": "a drop of bitumen and a spider",
+            "name": "Spider Climb",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Spider Climb"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6821,13 +6821,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "310",
+            "level": "2",
             "materialComponent": "seven sharp thorns or seven small twigs, each sharpened to a point",
+            "name": "Spike Growth",
             "numClasses": "2",
             "range": "150 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "2",
-            "spellName": "Spike Growth"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6843,13 +6843,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "311",
+            "level": "3",
             "materialComponent": "a holy symbol",
+            "name": "Spirit Guardians",
             "numClasses": "1",
             "range": "Self (15-foot radius)",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Spirit Guardians"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -6865,13 +6865,13 @@ let spells = [
             "description": "",
             "duration": "1 minute",
             "id": "312",
+            "level": "2",
             "materialComponent": "",
+            "name": "Spiritual Weapon",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "2",
-            "spellName": "Spiritual Weapon"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -6887,13 +6887,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "313",
+            "level": "4",
             "materialComponent": "",
+            "name": "Staggering Smite",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "4",
-            "spellName": "Staggering Smite"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -6909,13 +6909,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "314",
+            "level": "3",
             "materialComponent": "a rotten egg or several skunk\ncabbage leaves",
+            "name": "Stinking Cloud",
             "numClasses": "3",
             "range": "90 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "3",
-            "spellName": "Stinking Cloud"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -6931,13 +6931,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "315",
+            "level": "4",
             "materialComponent": "soft clay, which must be worked\ninto roughly the desired shape o f the stone object",
+            "name": "Stone Shape",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "4",
-            "spellName": "Stone Shape"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -6953,13 +6953,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "316",
+            "level": "4",
             "materialComponent": "diamond dust worth 100 gp, which the spell consumes",
+            "name": "Stoneskin",
             "numClasses": "4",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "4",
-            "spellName": "Stoneskin"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -6975,13 +6975,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "317",
+            "level": "9",
             "materialComponent": "",
+            "name": "Storm of Vengeance",
             "numClasses": "1",
             "range": "Sight",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "9",
-            "spellName": "Storm of Vengeance"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -6997,13 +6997,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 8 hours",
             "id": "318",
+            "level": "2",
             "materialComponent": "a snake\u2019s tongue and either a bit of honeycomb or a drop of  sweet oil",
+            "name": "Suggestion",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Suggestion"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -7019,13 +7019,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "319",
+            "level": "6",
             "materialComponent": "a magnifying glass",
+            "name": "Sunbeam",
             "numClasses": "3",
             "range": "Self (60-foot line)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Sunbeam"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7041,13 +7041,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "320",
+            "level": "8",
             "materialComponent": "fire and a piece of sunstone",
+            "name": "Sunburst",
             "numClasses": "3",
             "range": "150 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "8",
-            "spellName": "Sunburst"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 bonus action",
@@ -7063,13 +7063,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "321",
+            "level": "5",
             "materialComponent": "a quiver containing at least one\npiece of ammunition",
+            "name": "Swift Quiver",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "5",
-            "spellName": "Swift Quiver"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 minute",
@@ -7085,13 +7085,13 @@ let spells = [
             "description": "",
             "duration": "Until dispelled or triggered",
             "id": "322",
+            "level": "7",
             "materialComponent": "mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
+            "name": "Symbol",
             "numClasses": "3",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "7",
-            "spellName": "Symbol"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -7107,13 +7107,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "323",
+            "level": "1",
             "materialComponent": "tiny tarts and a feather that is\nwaved in the air",
+            "name": "Tasha's Hideous Laughter",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "1",
-            "spellName": "Tasha's Hideous Laughter"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -7129,13 +7129,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "324",
+            "level": "5",
             "materialComponent": "",
+            "name": "Telekinesis",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "5",
-            "spellName": "Telekinesis"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -7151,13 +7151,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "325",
+            "level": "8",
             "materialComponent": "a pair of linked silver rings",
+            "name": "Telepathy",
             "numClasses": "1",
             "range": "Unlimited",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "8",
-            "spellName": "Telepathy"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7173,13 +7173,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "326",
+            "level": "7",
             "materialComponent": "",
+            "name": "Teleport",
             "numClasses": "3",
             "range": "10 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "7",
-            "spellName": "Teleport"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 minute",
@@ -7195,13 +7195,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "327",
+            "level": "5",
             "materialComponent": "rare chalks and inks infused with precious gems with 50 gp, which the spell consumes",
+            "name": "Teleportation Circle",
             "numClasses": "3",
             "range": "10 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Teleportation Circle"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7217,13 +7217,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "328",
+            "level": "1",
             "materialComponent": "a drop of mercury",
+            "name": "Tenser's Floating Disk",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Tenser's Floating Disk"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7239,13 +7239,13 @@ let spells = [
             "description": "",
             "duration": "Up to 1 minute",
             "id": "329",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Thaumaturgy",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Thaumaturgy"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -7261,13 +7261,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "330",
+            "level": "Cantrip",
             "materialComponent": "the stem of a plant with thorns",
+            "name": "Thorn Whip",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "Cantrip",
-            "spellName": "Thorn Whip"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 bonus action",
@@ -7283,13 +7283,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "331",
+            "level": "1",
             "materialComponent": "",
+            "name": "Thunderous Smite",
             "numClasses": "1",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Thunderous Smite"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7305,13 +7305,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "332",
+            "level": "1",
             "materialComponent": "",
+            "name": "Thunderwave",
             "numClasses": "4",
             "range": "Self (15-foot cube)",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Thunderwave"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7327,13 +7327,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "333",
+            "level": "9",
             "materialComponent": "",
+            "name": "Time Stop",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "9",
-            "spellName": "Time Stop"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -7349,13 +7349,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "334",
+            "level": "3",
             "materialComponent": "a small clay model of a ziggurat",
+            "name": "Tongues",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "3",
-            "spellName": "Tongues"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -7371,13 +7371,13 @@ let spells = [
             "description": "",
             "duration": "1 round",
             "id": "335",
+            "level": "6",
             "materialComponent": "",
+            "name": "Transport Via Plants",
             "numClasses": "1",
             "range": "10 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Transport Via Plants"
+            "school": "Conjuration"
         },
         {
             "castingTime": "",
@@ -7393,13 +7393,13 @@ let spells = [
             "description": "",
             "duration": "",
             "id": "336",
+            "level": "",
             "materialComponent": "",
+            "name": "Trap the Soul  (NO DESCRIPTION)",
             "numClasses": "1",
             "range": "",
             "ritual": "",
-            "school": "",
-            "spellLevel": "",
-            "spellName": "Trap the Soul  (NO DESCRIPTION)"
+            "school": ""
         },
         {
             "castingTime": "1 action",
@@ -7415,13 +7415,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "337",
+            "level": "5",
             "materialComponent": "",
+            "name": "Tree Stride",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "5",
-            "spellName": "Tree Stride"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7437,13 +7437,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "338",
+            "level": "9",
             "materialComponent": "a drop of mercury, a dollop of\ngum arabic, and a wisp of smoke",
+            "name": "True Polymorph",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "9",
-            "spellName": "True Polymorph"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 hour",
@@ -7459,13 +7459,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "339",
+            "level": "9",
             "materialComponent": "a sprinkle o f holy water and diamonds worth at least 25,000 gp, which the spell consumes",
+            "name": "True Resurrection",
             "numClasses": "2",
             "range": "Touch",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "9",
-            "spellName": "True Resurrection"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -7481,13 +7481,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "340",
+            "level": "6",
             "materialComponent": "an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell",
+            "name": "True Seeing",
             "numClasses": "5",
             "range": "Touch",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "6",
-            "spellName": "True Seeing"
+            "school": "Divination"
         },
         {
             "castingTime": "1 action",
@@ -7503,13 +7503,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 round",
             "id": "341",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "True Strike",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "",
-            "school": "Divination",
-            "spellLevel": "Cantrip",
-            "spellName": "True Strike"
+            "school": "Divination"
         },
         {
             "castingTime": "1 minute",
@@ -7525,13 +7525,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 6 rounds",
             "id": "342",
+            "level": "8",
             "materialComponent": "",
+            "name": "Tsunami",
             "numClasses": "1",
             "range": "Sight",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "8",
-            "spellName": "Tsunami"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7547,13 +7547,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "343",
+            "level": "1",
             "materialComponent": "a piece of string and\na bit of wood",
+            "name": "Unseen Servant",
             "numClasses": "3",
             "range": "60 ft",
             "ritual": "Ritual",
-            "school": "Conjuration",
-            "spellLevel": "1",
-            "spellName": "Unseen Servant"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7569,13 +7569,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "344",
+            "level": "3",
             "materialComponent": "",
+            "name": "Vampiric Touch",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Necromancy",
-            "spellLevel": "3",
-            "spellName": "Vampiric Touch"
+            "school": "Necromancy"
         },
         {
             "castingTime": "1 action",
@@ -7591,13 +7591,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "345",
+            "level": "Cantrip",
             "materialComponent": "",
+            "name": "Vicious Mockery",
             "numClasses": "1",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "Cantrip",
-            "spellName": "Vicious Mockery"
+            "school": "Enchantment"
         },
         {
             "castingTime": "1 action",
@@ -7613,13 +7613,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "346",
+            "level": "4",
             "materialComponent": "a small piece of phosphorus",
+            "name": "Wall of Fire",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "4",
-            "spellName": "Wall of Fire"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7635,13 +7635,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "347",
+            "level": "5",
             "materialComponent": "a pinch of powder made by\ncrushing a clear gemstone",
+            "name": "Wall of Force",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Wall of Force"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7657,13 +7657,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "348",
+            "level": "6",
             "materialComponent": "a small piece of quartz",
+            "name": "Wall of Ice",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "6",
-            "spellName": "Wall of Ice"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7679,13 +7679,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "349",
+            "level": "5",
             "materialComponent": "a small block of granite",
+            "name": "Wall of Stone",
             "numClasses": "3",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "5",
-            "spellName": "Wall of Stone"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7701,13 +7701,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 10 minutes",
             "id": "350",
+            "level": "6",
             "materialComponent": "a handful of thorns",
+            "name": "Wall of Thorns",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Wall of Thorns"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7723,13 +7723,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "351",
+            "level": "2",
             "materialComponent": "a pair of platinum rings worth at least 50 gp each, which you and the target  must wear for the duration",
+            "name": "Warding Bond",
             "numClasses": "1",
             "range": "Touch",
             "ritual": "",
-            "school": "Abjuration",
-            "spellLevel": "2",
-            "spellName": "Warding Bond"
+            "school": "Abjuration"
         },
         {
             "castingTime": "1 action",
@@ -7745,13 +7745,13 @@ let spells = [
             "description": "",
             "duration": "24 hours",
             "id": "352",
+            "level": "3",
             "materialComponent": "a short reed or piece of straw",
+            "name": "Water Breathing",
             "numClasses": "4",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Water Breathing"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -7767,13 +7767,13 @@ let spells = [
             "description": "",
             "duration": "1 hour",
             "id": "353",
+            "level": "3",
             "materialComponent": "a piece of cork",
+            "name": "Water Walk",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "Ritual",
-            "school": "Transmutation",
-            "spellLevel": "3",
-            "spellName": "Water Walk"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -7789,13 +7789,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 hour",
             "id": "354",
+            "level": "2",
             "materialComponent": "a bit of spiderweb",
+            "name": "Web",
             "numClasses": "2",
             "range": "60 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "2",
-            "spellName": "Web"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7811,13 +7811,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "355",
+            "level": "9",
             "materialComponent": "",
+            "name": "Weird",
             "numClasses": "1",
             "range": "120 ft",
             "ritual": "",
-            "school": "Illusion",
-            "spellLevel": "9",
-            "spellName": "Weird"
+            "school": "Illusion"
         },
         {
             "castingTime": "1 minute",
@@ -7833,13 +7833,13 @@ let spells = [
             "description": "",
             "duration": "8 hours",
             "id": "356",
+            "level": "6",
             "materialComponent": "fire and holy water",
+            "name": "Wind Walk",
             "numClasses": "1",
             "range": "30 ft",
             "ritual": "",
-            "school": "Transmutation",
-            "spellLevel": "6",
-            "spellName": "Wind Walk"
+            "school": "Transmutation"
         },
         {
             "castingTime": "1 action",
@@ -7855,13 +7855,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "357",
+            "level": "3",
             "materialComponent": "a tiny fan and a feather of exotic origin",
+            "name": "Wind Wall",
             "numClasses": "2",
             "range": "120 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "3",
-            "spellName": "Wind Wall"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7877,13 +7877,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "358",
+            "level": "9",
             "materialComponent": "",
+            "name": "Wish",
             "numClasses": "2",
             "range": "Self",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "9",
-            "spellName": "Wish"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 action",
@@ -7899,13 +7899,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "359",
+            "level": "1",
             "materialComponent": "a twig from a tree that has been struck by lightning",
+            "name": "Witch Bolt",
             "numClasses": "3",
             "range": "30 ft",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Witch Bolt"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7921,13 +7921,13 @@ let spells = [
             "description": "",
             "duration": "Instantaneous",
             "id": "360",
+            "level": "6",
             "materialComponent": "",
+            "name": "Word of Recall",
             "numClasses": "1",
             "range": "5 ft",
             "ritual": "",
-            "school": "Conjuration",
-            "spellLevel": "6",
-            "spellName": "Word of Recall"
+            "school": "Conjuration"
         },
         {
             "castingTime": "1 bonus action",
@@ -7943,13 +7943,13 @@ let spells = [
             "description": "",
             "duration": "Concentration, up to 1 minute",
             "id": "361",
+            "level": "1",
             "materialComponent": "",
+            "name": "Wrathful Smite",
             "numClasses": "0",
             "range": "Self",
             "ritual": "",
-            "school": "Evocation",
-            "spellLevel": "1",
-            "spellName": "Wrathful Smite"
+            "school": "Evocation"
         },
         {
             "castingTime": "1 action",
@@ -7965,101 +7965,13 @@ let spells = [
             "description": "",
             "duration": "10 minutes",
             "id": "362",
+            "level": "2",
             "materialComponent": "",
+            "name": "Zone of Truth",
             "numClasses": "0",
             "range": "60 ft",
             "ritual": "",
-            "school": "Enchantment",
-            "spellLevel": "2",
-            "spellName": "Zone of Truth"
-        },
-        {
-            "castingTime": "",
-            "classBard": "",
-            "classCleric": "",
-            "classDruid": "",
-            "classPaladin": "",
-            "classRanger": "",
-            "classSorcerer": "",
-            "classWarlock": "",
-            "classWizard": "",
-            "components": "",
-            "description": "",
-            "duration": "",
-            "id": "363",
-            "materialComponent": "",
-            "numClasses": "0",
-            "range": "",
-            "ritual": "",
-            "school": "",
-            "spellLevel": "",
-            "spellName": ""
-        },
-        {
-            "castingTime": "",
-            "classBard": "",
-            "classCleric": "",
-            "classDruid": "",
-            "classPaladin": "",
-            "classRanger": "",
-            "classSorcerer": "",
-            "classWarlock": "",
-            "classWizard": "",
-            "components": "",
-            "description": "",
-            "duration": "",
-            "id": "364",
-            "materialComponent": "",
-            "numClasses": "0",
-            "range": "",
-            "ritual": "",
-            "school": "",
-            "spellLevel": "",
-            "spellName": ""
-        },
-        {
-            "castingTime": "",
-            "classBard": "",
-            "classCleric": "",
-            "classDruid": "",
-            "classPaladin": "",
-            "classRanger": "",
-            "classSorcerer": "",
-            "classWarlock": "",
-            "classWizard": "",
-            "components": "",
-            "description": "",
-            "duration": "",
-            "id": "365",
-            "materialComponent": "",
-            "numClasses": "0",
-            "range": "",
-            "ritual": "",
-            "school": "",
-            "spellLevel": "",
-            "spellName": ""
-        },
-        {
-            "castingTime": "",
-            "classBard": "118",
-            "classCleric": "101",
-            "classDruid": "106",
-            "classPaladin": "42",
-            "classRanger": "46",
-            "classSorcerer": "129",
-            "classWarlock": "74",
-            "classWizard": "215",
-            "components": "",
-            "description": "",
-            "duration": "",
-            "id": "366",
-            "materialComponent": "",
-            "numClasses": "0",
-            "range": "",
-            "ritual": "31",
-            "school": "359",
-            "spellLevel": "359",
-            "spellName": "360"
+            "school": "Enchantment"
         }
     ];
 
