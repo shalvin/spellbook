@@ -4,7 +4,7 @@ let latency = 200;
 let id = 0;
 let httpClient = new HttpClient();
 
-function getId(){
+function generateId() {
   return ++id;
 }
 
@@ -18,6 +18,9 @@ export class WebAPI {
       .then(response => response.json())
       .then(data => {
         spells = data.spellList;
+        for (let spell of spells) {
+          spell.id = generateId();
+        }
       });
   }
   
@@ -25,42 +28,19 @@ export class WebAPI {
     this.isRequesting = true;
     return new Promise(resolve => {
       setTimeout(() => {
-        let results = [];
-        
-        resolve(results);
+        resolve(spells);
         this.isRequesting = false;
       }, latency);
     });
   }
 
-  getContactDetails(id){
+  getSpellDetails(id) {
     this.isRequesting = true;
     return new Promise(resolve => {
       setTimeout(() => {
-        let found = contacts.filter(x => x.id == id)[0];
+        let found = spells.filter(x => x.id == id)[0];
         resolve(JSON.parse(JSON.stringify(found)));
         this.isRequesting = false;
-      }, latency);
-    });
-  }
-
-  saveContact(contact){
-    this.isRequesting = true;
-    return new Promise(resolve => {
-      setTimeout(() => {
-        let instance = JSON.parse(JSON.stringify(contact));
-        let found = contacts.filter(x => x.id == contact.id)[0];
-
-        if(found){
-          let index = contacts.indexOf(found);
-          contacts[index] = instance;
-        }else{
-          instance.id = getId();
-          contacts.push(instance);
-        }
-
-        this.isRequesting = false;
-        resolve(instance);
       }, latency);
     });
   }
