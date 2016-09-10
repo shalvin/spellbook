@@ -21,6 +21,7 @@ export class WebAPI {
         for (let spell of spells) {
           spell.id = generateId();
         }
+        console.log("[WebAPI] Loaded spells");
       });
   }
   

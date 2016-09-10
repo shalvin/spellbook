@@ -7,7 +7,7 @@ export class App {
         config.title = 'Spells';
         config.map([
             { route: '',             moduleId: 'no-selection',   title: 'Select'},
-            { route: 'spells/:spellName', moduleId: 'spell-detail', name: 'spells' }
+            { route: 'spells/:id', moduleId: 'spell-detail', name: 'spells' }
         ]);
 
         this.router = router;

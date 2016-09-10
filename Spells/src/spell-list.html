@@ -1,0 +1,12 @@
+<template>
+  <div class="spell-list">
+    <ul class="list-group">
+      <li repeat.for="spell of spells" class="list-group-item ${contact.id === $parent.selectedId ? 'active' : ''}">
+        <a route-href="route: spells; params.bind: {id:spell.id}" click.delegate="$parent.select(spell)">
+          <h4 class="list-group-item-heading">${spell.spellName}</h4>
+          <!--<p class="list-group-item-text">${contact.email}</p>-->
+        </a>
+      </li>
+    </ul>
+  </div>
+</template>
