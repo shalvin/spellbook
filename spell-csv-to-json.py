@@ -4,6 +4,7 @@ import json
 FILENAME = 'res/Spell_List_by_MadBeard_v1.0.csv' 
 
 fieldnames = [
+    'id',
     'spellName',
     'spellLevel',
     'ritual',
